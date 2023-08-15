@@ -39,20 +39,24 @@ h2 {
     border-radius: 0.5rem;
 }
 
-.about {
+.text {
     display: flex;
 }
 
-.about .aboutCard {
+.text .textCard {
     width: calc(100% / 3) - 2rem;
     margin: 1rem;
 }
 
-.about .aboutCard p {
+.text .textCard p {
     background-color: lightslategray;
     color: black;
     border-radius: 0.5rem;
     padding: 2rem;
+}
+
+form {
+    padding: 0.5rem;
 }
 
 @media (max-width: 600px) {
