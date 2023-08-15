@@ -1,0 +1,17 @@
+nav {
+    display: flex;
+    background-color: lightslategray;
+    padding: 1rem;
+    justify-content: space-around;
+    border-radius: 0.5rem;
+}
+
+nav a {
+    color: beige;
+    padding: 0.25rem;
+}
+
+a:hover {
+    background-color: darkgray;
+    border-radius: 0.5rem;
+}
