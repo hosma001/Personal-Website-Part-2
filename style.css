@@ -59,6 +59,24 @@ form {
     padding: 0.5rem;
 }
 
+.portfolio {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.portfolio .portfolioCard {
+    width: 50%;
+    margin: 1rem;
+}
+
+.portfolio .portfolioCard p {
+    background-color: lightslategray;
+    color: black;
+    border-radius: 0.5rem;
+    padding: 2rem;
+}
+
 @media (max-width: 600px) {
     nav {
         flex-direction: column;
